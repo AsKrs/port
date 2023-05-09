@@ -1,9 +1,20 @@
 import "./Intro.scss";
 
 function Intro() {
+
+
+ //버튼 클릭시 이벤트
+ const enter =(e) =>{
+  e.preventDefault();
+  console.log("버튼 클릭");
+  window.location.href = "/main";
+}
+
+
   return (
     <>
       <div className="first">
+        <button className = "enter" onClick={enter}>확인</button>
         <div className="first-1">
           <h1 className="sliding-text-ver">AsKrs</h1>
         </div>
