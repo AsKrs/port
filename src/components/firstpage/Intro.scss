@@ -1,0 +1,293 @@
+body{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-use-select: none;
+  user-select: none;
+ }
+ 
+.heading {
+  margin: 0 0 0 0;
+}
+
+.sliding-text-hor {
+  margin-top :0;
+  
+  position: relative;
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.sliding-text-hor2 {
+  margin-top :0;
+  
+  position: relative;
+  animation-name: slide2;
+  animation-duration: 12s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.sliding-text-hor3 {
+  margin-top :0;
+  
+  position: relative;
+  animation-name: slide3;
+  animation-duration: 14s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.sliding-text-ver {
+  writing-mode: vertical-rl;
+  margin-top :0;
+  position: relative;
+  animation-name: slide4;
+  animation-duration: 14s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.sliding-text-ver2 {
+  writing-mode: vertical-rl;
+  margin-top :0;
+  position: relative;
+  animation-name: slide5;
+  animation-duration: 14s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.sliding-text-ver3 {
+  writing-mode: vertical-rl;
+  margin-top :0;
+  position: relative;
+  animation-name: slide6;
+  animation-duration: 14s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes slide {
+  0% {
+    left: -150%;
+    opacity: 1;
+  }
+  100% {
+    left: 100%;
+    opacity: 1;
+  }
+}
+@keyframes slide2 {
+  0% {
+    left: 135%;
+    opacity: 1;
+  }
+  100% {
+    left: -195%;
+    opacity: 1;
+  }
+}
+@keyframes slide3 {
+  0% {
+    left: -120%;
+    opacity: 1;
+  }
+  100% {
+    left: 100%;
+    opacity: 1;
+  }
+}
+@keyframes slide4 {
+  0% {
+    top: 150%;
+    opacity: 1;
+  }
+  100% {
+    top: -150%;
+    opacity: 1;
+  }
+}
+@keyframes slide5 {
+  0% {
+    top: -160%;
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 1;
+  }
+}
+@keyframes slide6 {
+  0% {
+    top: -170%;
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 1;
+  }
+}
+
+.first{
+  width:100%;
+  height: 100vh;
+  display: flex;
+}
+
+.first-1{
+  width : 10%;
+  height : 100vh;
+  overflow: hidden;
+
+  h1{
+    font-size :100px;
+  }
+}
+
+.first-2{
+  width : 90%;
+  height : 100vh;
+}
+
+.second-1{
+  width : 100%;
+  height : 25vh;
+  overflow: hidden;
+
+  h1{
+    font-size :210px;
+  }
+}
+
+.second-2{
+  width : 100%;
+  height : 75vh;
+  display: flex;
+}
+
+.third-1{
+  width : 18%;
+  height : 75vh;
+  overflow: hidden;
+
+  h1{
+    font-size :210px;
+    margin-left: 0;
+  }
+}
+
+.third-2{
+  width: 27%;
+  height: 75vh;
+  overflow: hidden;
+
+  h1{
+    font-size :210px;
+  }
+}
+
+.third-3{
+  width: 28%;
+  height: 75vh;
+  overflow: hidden;
+
+  h1{
+    font-size :210px;
+  }
+}
+
+.third-4{
+  width: 27%;
+  height: 75vh;
+  overflow: hidden;
+
+  h1{
+    font-size :210px;
+  }
+}
+
+.fourth-1{
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+
+  h1{
+    font-size :160px;
+  }
+}
+
+.fourth-2{
+  width: 100%;
+  height: 55vh;
+  overflow: hidden;
+
+  h1{
+    font-size :210px;
+  }
+}
+
+.fourth-3{
+  width:100%;
+  height:30vh;
+  overflow: hidden;
+
+  h1{
+    font-size :210px;
+  }
+}
+
+.fourth-4{
+  width:100%;
+  height:45vh;
+  display: flex;
+}
+
+.fourth-5{
+  width:100%;
+  height:35vh;
+  overflow: hidden;
+
+  h1{
+    font-size :300px;
+  }
+}
+
+.fourth-6{
+  width:100%;
+  height:28vh;
+  overflow: hidden;
+
+  h1{
+    font-size :210px;
+  }
+}
+
+.fourth-7{
+  width:100%;
+  height:12vh;
+  overflow: hidden;
+
+  h1{
+    font-size :100px;
+  }
+}
+
+.fifth-1{
+  width:50%;
+  height: 45vh;
+  overflow: hidden;
+
+  h1{
+    font-size :180px;
+    margin-left:0;
+  }
+}
+
+.fifth-2{
+  width:50%;
+  height: 45vh;
+  overflow: hidden;
+
+  h1{
+    font-size :210px;
+    margin-left:0;
+  }
+}
