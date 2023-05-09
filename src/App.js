@@ -1,9 +1,11 @@
-import Intro from './components/firstpage/Intro.js'
+
+import './App.css';
 
 
 function App() {
   return (
-    <Intro />
+    <div className="App">
+      </div>
   );
 }
 
